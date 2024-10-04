@@ -27,3 +27,5 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397
 - Add AtragMx presets and accurate mRad reticle calibration.
 - Add "ACE_ScopeHeightAboveRail" from ACE3 "checkScopes.sqf".
 - Add "ACE_railHeightAboveBore" from ACE3 "checkScopes.sqf".
+
+ Steam Workshop's download link: https://steamcommunity.com/sharedfiles/filedetails/?id=3337555434
