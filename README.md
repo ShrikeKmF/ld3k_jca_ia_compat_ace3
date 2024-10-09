@@ -18,14 +18,14 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397
 - 5.56x45mm ammunition from ACE3 Ghitub: "B_556x45_Ball", standart 5.56x45mm NATO ball (SS109 / M855).
 - Add .338 LM AP485 Armor Piercing according to Lapua datas.
 - Add .338 LM API526 Armor Piercing Incendiary according to Lapua datas.
-- Add 7.62x51mm M993 AP.
+- Add 7.62x51mm M993 AP from ACE3 Ghitub.
 - Add 7.62x51mm ammunition Subsonic Lapua 200gr B416 ICAO G1 BC 0.518.
 - Add 5.56x45mm ammunition Dual Purpose underwater subsonic (zeroing 100m recommanded).
 - Add 5.56x45mm M855A1 from 2022/23 datas.
-- Add 5.56x45mm M193.
-- Add 5.56x45mm Mk262.
-- Add 5.56x45mm Mk318.
-- Add 5.56x45mm M995 AP.
+- Add 5.56x45mm M193 from RUAG Ammotec AG.
+- Add 5.56x45mm Mk262 from ACE3 Ghitub.
+- Add 5.56x45mm Mk318 from ACE3 Ghitub.
+- Add 5.56x45mm M995 AP from ACE3 Ghitub.
 - Add M17 9x19mm +P Sig Sauer NATO 124gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 datas: 365m/s (1198fps) barrel length 4.0".
 - Add M17 9x19mm +P Sig Sauer NATO 124gr JHP (Jacketed Hollow Point) according to Sig Sauer 2024 datas: 365m/s (1198fps) barrel length 4.0".
 - Add M1152 9x19mm 115gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 datas: 361 m/s (1185fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
