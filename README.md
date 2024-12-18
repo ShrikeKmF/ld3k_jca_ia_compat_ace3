@@ -32,6 +32,6 @@ Ace3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave
 - Add "ACE_ScopeHeightAboveRail" from ACE3 "checkScopes.sqf".
 - Add "ACE_railHeightAboveBore" from ACE3 "checkScopes.sqf".
 
- Download link: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3337555434)
+Download link: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3337555434)
 
- License: [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
+License: [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
