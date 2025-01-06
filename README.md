@@ -11,6 +11,8 @@ Ace3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave
   - Heckler & Koch MP5, barrel length 225mm (8.858").
   - Sig Sauer P226, 4.4" barrel 15rd magazine (U.S. Navy SEALs P226 MK25).
   - Sig Sauer P320 Compact, 3.9" barrel 15rd magazine (US Army Sig Sauer M18).
+  - Heckler & Koch UMP45, barrel length 200mm.
+- .45 ACP +P 230gr Winchester Law Enforcement 2025 datas: 990fps (302m/s) barrel length 5".
 - .338 LM ammunition according to Lapua Scenar 250gr GB488 datas.
 - 7.62x51mm ammunition from ACE3 Ghitub: "ACE_762x51_Ball_Mk316_Mod_0" according to Sierra datas: 7.62mm HPBT MatchKing 175gr, ASM G1 BC 0.496 between 2800 fps (853m/s) and 1800 fps (549m/s) converted to ICAO G1 BC 0.489.
 - 5.56x45mm ammunition from ACE3 Ghitub: "B_556x45_Ball", standart 5.56x45mm NATO ball (SS109 / M855).
