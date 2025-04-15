@@ -1,5 +1,5 @@
-Ace3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397)
-- Can be played with or without Ace3.
+ACE3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397)
+- Can be played with or without ACE3.
 - Default ballistic muzzle velocities according to Advanced Ballistics ICAO muzzle velocities (15°C, 1013.25 hPa, 0%).
 - Default ballistic airFriction based on Advanced Ballistics ICAO ballistic coefficients and drag models with the [ACE3 tool by Ruthberg](https://github.com/acemod/ACE3/blob/master/tools/generate_airfriction_config.py).
 - ACE3 "mass" according to manufacturers' datas.
@@ -8,10 +8,11 @@ Ace3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave
   - Knight's Armament Company Mk 11 MOD 0 20" barrel twist 1:11.25".
   - SR10 14.5" barrel twist 1:10".
   - M16A4 20", M4A1/A4 10.3", 14.5" barrels twist 1:7".
-  - Heckler & Koch MP5, barrel length 225mm (8.858").
-  - Sig Sauer P226, 4.4" barrel 15rd magazine (U.S. Navy SEALs P226 MK25).
-  - Sig Sauer P320 Compact, 3.9" barrel 15rd magazine (US Army Sig Sauer M18).
-  - Heckler & Koch UMP45, barrel length 200mm.
+  - Berreta M9A1: barrel length 125mm (4.9"), 15rd magazine.
+  - Heckler & Koch MP5, barrel length 225mm (8.858"), 30rd magazine.
+  - Sig Sauer P226, barrel length 4.4", 15rd magazine (U.S. Navy SEALs P226 MK25).
+  - Sig Sauer P320 Compact, barrel length 3.9", 15rd magazine (US Army Sig Sauer M18).
+  - Heckler & Koch UMP45, barrel length 200mm, 25rd magazine.
 - .45 ACP +P 230gr Winchester Law Enforcement 2025 datas: 990fps (302m/s) barrel length 5".
 - .338 LM ammunition according to Lapua Scenar 250gr GB488 datas.
 - 7.62x51mm ammunition from ACE3 Ghitub: "ACE_762x51_Ball_Mk316_Mod_0" according to Sierra datas: 7.62mm HPBT MatchKing 175gr, ASM G1 BC 0.496 between 2800 fps (853m/s) and 1800 fps (549m/s) converted to ICAO G1 BC 0.489.
