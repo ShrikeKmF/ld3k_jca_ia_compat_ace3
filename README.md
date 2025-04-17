@@ -7,7 +7,7 @@ ACE3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave
   - Accuracy International AWM .338LM L115A3 27" barrel twist 1:11.
   - Knight's Armament Company Mk 11 MOD 0 20" barrel twist 1:11.25".
   - SR10 14.5" barrel twist 1:10".
-  - M16A4 20", M4A1/A4 10.3", 14.5" barrels twist 1:7".
+  - M4A4 10.3", M4A1 14.5", M16A4 20" barrel twist 1:7".
   - Berreta M9A1: barrel length 125mm (4.9"), 15rd magazine.
   - Heckler & Koch MP5, barrel length 225mm (8.858"), 30rd magazine.
   - Sig Sauer P226, barrel length 4.4", 15rd magazine (U.S. Navy SEALs P226 MK25).
@@ -32,8 +32,8 @@ ACE3 compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsenal" by Grave
 - Add M1152 9x19mm 115gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 datas: 361 m/s (1185fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
 - Add M1153 9x19mm 147gr JHP (Jacketed Hollow Point) according to Sig Sauer 2024 datas: 300m/s (985fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
 - Add AtragMx presets and accurate mRad reticle calibration.
-- Add "ACE_ScopeHeightAboveRail" from ACE3 "checkScopes.sqf".
-- Add "ACE_railHeightAboveBore" from ACE3 "checkScopes.sqf".
+- Add "ACE_ScopeHeightAboveRail" values from ACE3 "checkScopes.sqf" for all optics.
+- Add "ACE_railHeightAboveBore" values from ACE3 "checkScopes.sqf" for all weapons.
 
 Download link: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3337555434)
 
