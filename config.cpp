@@ -19,7 +19,8 @@ class CfgPatches
             "Weapons_F_JCA_IA_SMGs_MP5",
             "Weapons_F_JCA_IA_SMGs_UMP",
             "Weapons_F_JCA_Pistols_M9A1",
-            "Weapons_F_JCA_HF_Explosives"
+            "Weapons_F_JCA_HF_Explosives",
+            "Weapons_F_JCA_IA_Launchers_Mk153"
         };
         requiredversion=0.1;
         units[]={};
@@ -31,6 +32,7 @@ class CfgAmmo
     class BulletBase;
     class B_338_Ball;
     class GrenadeHand;
+    class RocketBase;
     // JCA Bullets inherited from vanilla class B_9x21_Ball. To avoid all conflict with other mod, all JCA bullets with JCA as prefixe.
     // class B_9x21_Ball: BulletBase from official BI tool All-in-one Config Arma3 2.17.152041 https://community.bistudio.com/wiki/Arma:_All-in-one_Config
     class JCA_B_9x19_Ball_P320C_FMJ: BulletBase // M1152 Sig Sauer 9x19mm 115gr Full Metal Jacket FMJ https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
@@ -1130,6 +1132,18 @@ class CfgAmmo
         ace_frag_skip=1;
         ace_frag_force=0;
     };
+
+	class JCA_R_MK153_HEAT_F: RocketBase
+	{
+		aiAmmoUsageFlags = "128 + 256 + 512"; // Light Vehicles, Air, Armour
+		allowAgainstInfantry = 1;
+	};
+	class JCA_R_MK153_HE_F: JCA_R_MK153_HEAT_F
+	{
+		aiAmmoUsageFlags = "64 + 128 + 256"; // Infantry, Light Vehicles, Air
+        allowAgainstInfantry = 1;
+        cost = 80;
+	};
 };
 class CfgMagazines
 {
@@ -2828,6 +2842,15 @@ class CfgWeapons
     {
         class WeaponSlotsInfo;
     };
+    class Launcher;
+	class Launcher_Base_F: Launcher
+	{
+		class WeaponSlotsInfo;
+	};
+	class JCA_launch_Mk153_base_F: Launcher_Base_F // https://ace3.acemod.org/wiki/framework/reloadlaunchers-framework
+	{
+		ace_reloadlaunchers_enabled = 1; // Allow your buddies to reload your launcher (0-disabled, 1-enabled)
+	}
     class JCA_hgun_P320_base_F: Pistol_Base_F // P320 Compact, United States Army SIG Sauer M18 https://en.wikipedia.org/wiki/SIG_Sauer_M17
     {
         ACE_barrelLength=99; // 3.9" P320 Compact (3D model SIG Sauer P320 RXP Compact by Michael Egorov) https://www.sigsauer.com/p320-compact.html
